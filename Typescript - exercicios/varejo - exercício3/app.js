@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var classes_1 = require("./modules/classes");
+var v = new classes_1.Vendedor('Wictor', 5000);
+var v2 = new classes_1.Vendedor('Wictor', 7000);
+var v3 = new classes_1.Vendedor('Wictor', 13000);
+var v4 = new classes_1.Vendedor('Wictor', 40000);
+console.log(v.salarioFinal());
+console.log(v2.salarioFinal());
+console.log(v3.salarioFinal());
+console.log(v4.salarioFinal());
